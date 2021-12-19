@@ -16,5 +16,6 @@ func BMI(weightKG, heightM float64) (bmi float64, err error) {
 		return
 	}
 	bmi = weightKG / (heightM * heightM)
+	fmt.println("klsdjfkjasdkjflak jfl")
 	return
 }
